@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 6px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background:black ;
+    color: whitesmoke;
+}
+.box>h3,h1{
+    text-align: center;
+}
+.box>p{
+    text-align: justify;
+}
+.container{
+    display: flex;
+}
